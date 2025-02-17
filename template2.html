@@ -4,44 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Template 2</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar bg-blue">
-            <div class="navbar-logo"></div>
-            <div class="navbar-body">
-                <div class="navbar-body-item">
-                    <ul>About Us</ul>
-                </div>
-                <div class="navbar-body-item">
-                    <ul>Services</ul>
-                </div>
-                <div class="navbar-body-item">
-                    <ul>Industries</ul>
-                </div>
-                <div class="navbar-body-item">
-                    <ul>Insights</ul>
-                </div>
-                <div class="navbar-body-item">
-                    <ul>Careers</ul>
-                </div>
-                <div class="navbar-body-item">
-                    <ul><i>Search</i></ul>
-                </div>
-                <button>Contact Us</button>
+
+    <nav class="navbar bg-blue center">
+        <div class="navbar-logo">
+            LOGO
+        </div>
+        <div class="navbar-body">
+            <div class="navbar-body-item">
+                <a href="./index.html">Template 1</a>
             </div>
-        </nav>
-    </header>
+            <div class="navbar-body-item">
+                <a href="http://">Services</a>
+            </div>
+            <div class="navbar-body-item">
+                <a href="http://">Industries</a>
+            </div>
+            <div class="navbar-body-item">
+                <a href="http://">Insights</a>
+            </div>
+            <div class="navbar-body-item">
+                <a href="http://">Careers</a>
+            </div>
+
+        </div>
+        <div class="navbar-body-item">
+            <button class="btn-none"><i class="fa fa-search"></i></button>
+            <button class="btn-primary">Contact Us</button>
+        </div>
+    </nav>
+
     <main>
         <div class="hero">
             <img src="https://www.gstatic.com/webp/gallery/1.webp" alt="Article Image">
-            <h1>Post Article Title: Lorem Ipsum nahi</h1>
-            <span>tags</span>
+            <div class="hero-overlay">
+                <h1 class="text-white">Post Article Title: Lorem Ipsum</h1>
+                <div>
+                    <span class="text-white">Tags: </span>
+                    <span class="tag bg-white">Tag 1</span>
+                    <span class="tag bg-white">Tag 2</span>
+                    <span class="tag bg-white">Tag 3</span>
+                    <span class="tag bg-white">Tag 4</span>
+                </div>
+            </div>
         </div>
-        <section>
+        <section class="center">
 
             <article>
                 <h3>Title 1</h3>
@@ -85,6 +97,10 @@
             </article>
         </section>
     </main>
+
+    <footer>
+        <hr>
+    </footer>
 </body>
 
 </html>
